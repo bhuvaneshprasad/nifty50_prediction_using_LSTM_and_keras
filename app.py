@@ -59,10 +59,10 @@ def main():
         new_data = df['Close'][-60:].values
 
     # Load the trained model
-    loaded_model = load_model('model5_n.keras')
+    loaded_model = load_model('nifty_predictor_LSTM_model.keras')
 
     # Load the scaler used during training
-    loaded_scaler = joblib.load('scaler_n.pkl')
+    loaded_scaler = joblib.load('nifty_predictor_LSTM_scaler.pkl')
 
     # Add a button to trigger model prediction
     if st.button('Predict'):
