@@ -9,6 +9,7 @@ This project aims to predict the closing prices of stocks in the Nifty 50 index 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Model Training](#model-training)
+- [Model Performance](#model-performance)
 - [Prediction](#prediction)
 - [Contributing](#contributing)
 - [License](#license)
@@ -81,6 +82,10 @@ Stock price prediction is a challenging task due to the volatile nature of the s
 ## Model Training
 
 The model is trained using historical stock price data. The LSTM network is designed to capture temporal dependencies in the data. The training script includes data preprocessing, model architecture definition, and training routines.
+
+## Model Performance
+
+[Model Performance](assets/model_prediction.png)
 
 ## Prediction
 
