@@ -85,7 +85,7 @@ The model is trained using historical stock price data. The LSTM network is desi
 
 ## Model Performance
 
-[Model Performance](assets/model_prediction.png)
+![Model Performance](assets/model_prediction.png)
 
 ## Prediction
 
