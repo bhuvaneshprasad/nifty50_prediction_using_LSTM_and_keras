@@ -39,34 +39,41 @@ Stock price prediction is a challenging task due to the volatile nature of the s
 
 ## Installation
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/nifty-prediction.git
-   cd nifty-prediction```
-
+   cd nifty-prediction
+   ```
 
 2. Create a virtual environment:
-  ``` bash
-  python -m venv venv
-  venv\Scripts\activate```
+
+    ``` bash
+    python -m venv venv
+    venv\Scripts\activate
+    ```
 
 3. Install the required packages:
-  ``` bash
-    pip install -r requirements.txt```
+    ``` bash
+        pip install -r requirements.txt
+    ```
 
 ## Usage
 
 1. Train the Model:
+
     - Run the training script to train the LSTM model on historical data:
 
-      ``` bash
-      python train_model.py```
+    ``` bash
+      python train_model.py
+    ```
 
 2. Run the Streamlit Application:
 
     - Start the Streamlit application to visualize and predict stock prices:
 
-      ``` bash
-        streamlit run nifty_predictor.py```
+    ``` bash
+        streamlit run nifty_predictor.py
+    ```
 
 3. Access the Application:
     - Open your web browser and navigate to http://localhost:8501 to interact with the application.
