@@ -86,6 +86,13 @@ The model is trained using historical stock price data. The LSTM network is desi
 
 The Streamlit application allows users to predict future stock prices based on the latest available data. The application displays the historical trend, predicted values, and highlights the prediction points on the chart.
 
+## Next Steps
+
+1. Retrain the model with more layers to predict a long term trend
+2. Check & update the model periodically, if required
+3. Add gold, debt, G Sec, Dow Jones / Nasdaq as additional features and train the neural network
+4. With step 3 - consider adding risk factor like Monte Carlos and try creating a equity meter for asset allocation
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
